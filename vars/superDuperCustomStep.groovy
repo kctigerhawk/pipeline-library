@@ -1,5 +1,5 @@
 def call(Closure body) {
-    println 'before body'
+    echo 'before body'
     body()
-    println 'after body'
+    echo 'after body'
 }
